@@ -9,7 +9,7 @@ pip install reportlab
 
 ## Usage
 ```
-python ntlmpdf.py <smb-server> <share-name> <anyfile>
+python ntlmpdf.py
 ```
 
 ## Features
