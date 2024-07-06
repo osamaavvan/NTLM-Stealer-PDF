@@ -2,9 +2,14 @@
 
 This repository contains a script to generate a PDF file with an embedded link that connects to an SMB share. This is typically used in penetration testing to capture NTLM hashes when the PDF is opened.
 
-## Installation
+## Installation of required library
 ```
 pip install reportlab
+```
+
+## Usage
+```
+python ntlmpdf.py <smb-server> <share-name> <anyfile>
 ```
 
 ## Features
